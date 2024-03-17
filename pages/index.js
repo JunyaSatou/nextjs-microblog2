@@ -29,6 +29,48 @@ export default function Home() {
               Feburary 23, 2020
             </small>
           </article>
+          <article>
+            <Link href="/">
+              <img src="/images/thumbnail02.jpg"
+                className={styles.thumbnailImage}
+              />
+            </Link>
+            <Link href="/" className={utilStyle.boldText}>
+                SSGとSSRの使い分けの場面はいつなのか？
+            </Link>
+            <br />
+            <small className={utilStyle.lightText}>
+              Feburary 23, 2020
+            </small>
+          </article>
+          <article>
+            <Link href="/">
+              <img src="/images/thumbnail03.jpeg"
+                className={styles.thumbnailImage}
+              />
+            </Link>
+            <Link href="/" className={utilStyle.boldText}>
+                SSGとSSRの使い分けの場面はいつなのか？
+            </Link>
+            <br />
+            <small className={utilStyle.lightText}>
+              Feburary 23, 2020
+            </small>
+          </article>
+          <article>
+            <Link href="/">
+              <img src="/images/thumbnail04.jpg"
+                className={styles.thumbnailImage}
+              />
+            </Link>
+            <Link href="/" className={utilStyle.boldText}>
+                SSGとSSRの使い分けの場面はいつなのか？
+            </Link>
+            <br />
+            <small className={utilStyle.lightText}>
+              Feburary 23, 2020
+            </small>
+          </article>
         </div>
       </section>
     </Layout>
