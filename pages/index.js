@@ -17,6 +17,13 @@ export async function getStaticProps() {
   }
 }
 
+// SSRの場合
+// export async function getServerSideProps(context) {
+//    return {
+//     // コンポーネントに渡すためのprops
+//    }
+// }
+
 export default function Home({ allPostsData }) {
   return (
     <Layout>
