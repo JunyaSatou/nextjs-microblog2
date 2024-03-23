@@ -9,6 +9,7 @@ function Layout({ children }) {
   return (
     <div className={styles.container}>
       <Head>
+        <title>マイクロブログ</title>
         <link rel="icon" href="/favicon.ico"></link>       
       </Head>
       <header className={styles.header}>
